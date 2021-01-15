@@ -9,7 +9,7 @@ import Foundation
 
 
 class Human {
-    private var hp: Int = 10
+    fileprivate var hp: Int = 10
     fileprivate let name: String
 
     init(name: String) {
@@ -41,8 +41,8 @@ let yusha = Yusha(name: "松本")
 //senshi.name = "浜田"
 //yusha.name = "松本"
 
-//senshi.hp = 20000
-//print(senshi.hp)
+senshi.hp = 20
+print(senshi.hp)
 
 senshi.attackKen()
 yusha.attackMaho()
